@@ -1,0 +1,17 @@
+*
+**
+***
+****
+*****
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    for(int i=0;i<6;i++){   //i==row
+        for(int j=0;j<i+1;j++){   //j==coloumn  & this loop is for operations inside the row
+           cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
